@@ -3,8 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ColorPicker.iml" filepath="$PROJECT_DIR$/ColorPicker.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/colorseekbarpreference/colorseekbarpreference.iml" filepath="$PROJECT_DIR$/colorseekbarpreference/colorseekbarpreference.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/ColorPicker.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/ColorPicker.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/colorseekbarpreference/ColorPicker.colorseekbarpreference.iml" filepath="$PROJECT_DIR$/.idea/modules/colorseekbarpreference/ColorPicker.colorseekbarpreference.iml" />
     </modules>
   </component>
 </project>

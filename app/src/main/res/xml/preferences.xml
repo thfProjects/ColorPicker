@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:custom="http://schemas.android.com/apk/res-auto">
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <com.mylibraries.colorseekbarpreference.ColorSeekbarPreference
+    <CheckBoxPreference
+        android:title="enabled"
+        android:key="enabled"
+        app:iconSpaceReserved="false"/>
+
+    <com.mylibraries.colorseekbarpreference.ColorSeekBarPreference
         android:key="color"
         android:title="Set Color"
         android:summary="aaa"
-        custom:defaultcolor="#aa00b7"/>
+        custom:defaultcolor="#aa00b7"
+        android:dependency="enabled"
+        app:iconSpaceReserved="false"/>
 
 </PreferenceScreen>
